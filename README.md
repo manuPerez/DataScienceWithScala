@@ -1,2 +1,2 @@
-# Functional Program Design in Scala
-Ejercicios y pruebas semanales.
+# Data Science With Scala
+Ejercicios y pruebas.
