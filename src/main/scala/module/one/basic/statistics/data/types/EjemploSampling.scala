@@ -1,7 +1,9 @@
-import org.apache.spark.{SparkConf, SparkContext}
+package module.one.basic.statistics.data.types
+
+import org.apache.spark.mllib.linalg.distributed.IndexedRow
 import org.apache.spark.mllib.linalg.{Vector, Vectors}
 import org.apache.spark.rdd.RDD
-import org.apache.spark.mllib.linalg.distributed.IndexedRow
+import org.apache.spark.{SparkConf, SparkContext}
 
 object EjemploSampling extends App{
   val conf = new SparkConf().setAppName("EjemploPairwiseCorrelations").setMaster("local")

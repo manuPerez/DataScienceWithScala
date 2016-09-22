@@ -1,7 +1,9 @@
-import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark.rdd.RDD
+package module.one.basic.statistics.data.types
+
 import org.apache.spark.mllib.linalg.distributed._
 import org.apache.spark.mllib.linalg.{Vector, Vectors}
+import org.apache.spark.rdd.RDD
+import org.apache.spark.{SparkConf, SparkContext}
 
 object EjemploDistributedMatrices extends App{
   /*

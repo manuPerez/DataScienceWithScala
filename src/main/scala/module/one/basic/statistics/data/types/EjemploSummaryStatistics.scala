@@ -1,7 +1,9 @@
-import org.apache.spark.rdd.RDD
-import org.apache.spark.{SparkConf, SparkContext}
+package module.one.basic.statistics.data.types
+
 import org.apache.spark.mllib.linalg.{Vector, Vectors}
 import org.apache.spark.mllib.stat.{MultivariateStatisticalSummary, Statistics}
+import org.apache.spark.rdd.RDD
+import org.apache.spark.{SparkConf, SparkContext}
 
 object EjemploSummaryStatistics extends App{
   val conf = new SparkConf().setAppName("EjemploSummaryStatistics").setMaster("local")

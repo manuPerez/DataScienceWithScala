@@ -1,6 +1,8 @@
-import org.apache.spark.{SparkConf, SparkContext}
+package module.one.basic.statistics.data.types
+
 import org.apache.spark.mllib.random.RandomRDDs._
 import org.apache.spark.mllib.stat.{MultivariateStatisticalSummary, Statistics}
+import org.apache.spark.{SparkConf, SparkContext}
 
 object EjemploRandomDataGeneration extends App{
   /*

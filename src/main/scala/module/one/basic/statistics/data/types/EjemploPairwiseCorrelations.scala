@@ -1,7 +1,9 @@
+package module.one.basic.statistics.data.types
+
+import org.apache.spark.mllib.linalg.{Matrix, Vector, Vectors}
 import org.apache.spark.mllib.stat.Statistics
 import org.apache.spark.rdd.RDD
 import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark.mllib.linalg.{Matrix, Vector, Vectors}
 
 /*
   Correlación: indica la fuerza y dirección de una relación lineal y proporcionalidad entre dos variables estadísticas.

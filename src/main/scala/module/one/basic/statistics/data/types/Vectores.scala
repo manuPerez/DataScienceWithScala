@@ -1,4 +1,6 @@
-import org.apache.spark.mllib.linalg.{Vector, Vectors }
+package module.one.basic.statistics.data.types
+
+import org.apache.spark.mllib.linalg.Vectors
 
 object Vectores extends App {
   /*

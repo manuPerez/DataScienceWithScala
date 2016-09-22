@@ -1,4 +1,6 @@
-import org.apache.spark.mllib.linalg.{Matrix, Matrices}
+package module.one.basic.statistics.data.types
+
+import org.apache.spark.mllib.linalg.{Matrices, Matrix}
 
 object EjemploLocalMatrices extends App {
   /*
